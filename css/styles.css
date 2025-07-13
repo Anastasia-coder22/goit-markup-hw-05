@@ -659,8 +659,8 @@ a {
     border: 1px solid #4d5ae5;
 }
 
-.modal-input:hover~.icon,
-.modal-input:focus~.icon {
+.modal-input:hover~.icon-modal,
+.modal-input:focus~.icon-modal {
     fill: #4d5ae5;
 }
 
@@ -735,10 +735,10 @@ a {
     color: #4d5ae5;
 }
 
-.input-checkbox:checked+.label-privacy>.span-checkbox {
-    background-color: #4d5ae5;
+.input-checkbox:checked+.label-privacy .span-checkbox {
+    background-color: #404bbf;
     border: none;
-    fill: #ffffff;
+    fill: #f4f4fd;
 }
 
 .modal-send-button {
@@ -764,5 +764,4 @@ a {
 .modal-send-button:focus {
     background-color: #404bbf;
 }
-
 
